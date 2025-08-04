@@ -18,4 +18,6 @@ This is a project built as part of The Odin Project Foundations course. The goal
 
 ## How to Use
 
-Clone the repository and open `index.html` in your browser:
+Clone the repository and open `index.html` in your browser.
+
+Attribution: Images used are by Alex Andrews.
