@@ -41,8 +41,8 @@ body{
 
 .upperblock{
     display:flex;
-    justify-content: space-between;
     color:white;
+    justify-content: center;
     padding-bottom: 50px;
 }
 
@@ -50,19 +50,26 @@ body{
     display:flex;
     flex-direction: column;
     margin-left: 10%;
+    max-width:350px;
     margin-top: 5%;
     padding:15px;
-    padding-right: 50px;
 }
 
 .uppercontainer_right{
     display:flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
     margin-right: 10%;
+    max-width:350px;
     margin-top: 5%;
     padding:15px;
+}
+
+.hero{
+    margin-bottom: -10px;
+}
+
+.hero_under{
+    color:lightgray;
 }
 
 .herologo{
@@ -116,7 +123,59 @@ body{
 
 .lowerblock{
     background-color:#d4d4d4;
-    padding: 50px 0px 50px 0px;
+    padding: 100px 0px 100px 0px;
+}
+
+.lowercontainer{
+    text-align:left;
+    padding: 0px 30% 0px 30%;
+}
+
+.lowertext{
+    font-size:25px;
+    font-style:italic;
+}
+
+.lowertextattribution{
+    text-align:right;
+    font-weight: bold;
+    padding: 0 10% 0 0;
+}
+
+.bottomblock{
+    display:flex;
+    justify-content:center;
+    background-color: #ffffff;
+    padding: 100px 0 100px 0;
+}
+
+.bottomcontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.CTA_header,.CTA_text{
+    margin: 0px;
+}
+
+.CTAbox{
+    display:flex;
+    color:white;
+    border-radius:8px;
+    background-color: #006aff;
+    align-items: center;
+    gap: 10%;
+    padding: 25px 50px 25px 50px;
+    width: 60%;
+}
+
+.CTAbutton{
+    background-color: #006aff;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
 }
 
 ul{
